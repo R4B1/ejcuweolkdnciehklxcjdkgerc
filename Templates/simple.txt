@@ -1,0 +1,13 @@
+<center><b>{{ nzb-file : spacer }}</b></center>
+<p><br></p>
+<br>
+<center><img src="{{ cover }}" width="220" height="330"></center>
+<p><br></p>
+{@}
+<center><b>Beschreibung</b></center
+<p><br></p><p><br></p>
+<p></p><center>{{ [X] desc : linebreak }}</center>
+<p><br>
+{$}
+[[ nfo ]]
+[[ nzb_hidden ]]

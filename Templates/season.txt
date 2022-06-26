@@ -1,0 +1,11 @@
+<center><b>{{ nzb-file : spacer }}</b></center>
+<p><br></p>
+<br>
+<center><img src="{{ cover }}" width="220" height="330"></center>
+<p><br></p>
+<center><b>Beschreibung</b></center
+<br><center><em><span style="font-size: 10pt">{{ date }}  -   {{ genres }}   -  {{ runtime }}  -  {{vote}}</span></em></center
+<p><br></p><p><br></p>
+<p></p><center>{{ desc : linebreak }}</center>
+<br>‚
+[[ nzb_hidden ]]

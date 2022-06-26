@@ -1,0 +1,24 @@
+<p class="text-center"><span style="font-family:'Lucida Sans Unicode', sans-serif;"></span></p>
+<h2 class="text-center">
+	{{ nzb-file : spacer }}
+</h2>
+<p class="text-center"><img src="{{ cover }}" width="300" height="300"></p>
+<h3 class="text-center">
+	Trackliste
+</h3>
+<p class="text-center"><em>
+{{ tracklist : linebreak }}
+<br></em></p>
+<h3 class="text-center">
+	In das Album reinhören
+</h3>
+<p></p>
+<p class="text-center"><a href="{{ youtube }}"><img src="https://sky-of-use.net/index.php?attachment/937-youtube-png/" alt="937-youtube-png"></a></p>
+<p class="text-center"><strong>Mediainfo</strong><sub></sub></p>
+<p class="text-center"><span style="color:#00FF00;">Format</span>: {{ format }}<span style="color:#00FF00;"> Source:</span> {{ source }} <span style="color:#00FF00;">Größe:</span> {{ nzb-size }}</p>
+<p class="text-center"><br></p>
+<p></p>
+<p></p>
+<p class="text-center"><a href="https://www.discogs.com/de/master/{{ discogs_id }}"><img src="https://sky-of-use.net/index.php?attachment/939-discogs-png/" alt="939-discogs-png"> </a>
+<a href="{{ [] bandcamp }}"><img src="https://sky-of-use.net/index.php?attachment/938-bandcamp-png/" alt="938-bandcamp-png"> </a></p>
+[[ nzb_hidden ]]
