@@ -1,3 +1,4 @@
+{@ [] nzb}
 <center><sc-hide data-title="Versteckter Text">
 <b>Titel: </b>{{ nzb-file : spacer }}<br><br>
 
@@ -11,3 +12,4 @@
 
 <b>NZBLNK™ Link:</b><br>[nzblnk]nzblnk:?t={{ nzb-file : link }}&h={{ header : link }}&p={{ pass : link }}[/nzblnk]<br>
 </sc-hide></center>
+{$ nzb}
