@@ -1,15 +1,21 @@
 {@ [] nzb}
-<center><sc-hide data-title="Versteckter Text">
-<b>Titel: </b>{{ nzb-file : spacer }}<br><br>
-
-<b>Header: </b>{{ header }}<br>
-<b>Password: </b>{{ pass }}<br><br>
-
-<b>NZB-Datei beim Indexer:</b></font><br>
-<a href="https://nzbindex.nl/?q={{ header : link }}" target="_blank"> NZBIndex </a> - <a href="https://binsearch.info/?q={{ header : link }}" target="_blank"> Binsearch </a> - <a href="https://nzbking.com/?q={{ header : link }}" target="_blank"> NZBKing </a><br>
-
-<br>
-
-<b>NZBLNK™ Link:</b><br>[nzblnk]nzblnk:?t={{ nzb-file : link }}&h={{ header : link }}&p={{ pass : link }}[/nzblnk]<br>
-</sc-hide></center>
+<sc-hide>
+	<center>
+		<p>{{ nzb-file : spacer }}</p>
+		<p>[headertable='{{ header }}','{{ pass }}'][/headertable]</p>
+		<br>
+		<p>
+			<strong>NZB-Datei beim Indexer:</strong><br>
+			<a href="https://nzbindex.nl/?q={{ header : link }}" target="_blank">NZBIndex</a>
+			–
+			<a href="https://binsearch.info/?q={{ header : link }}" target="_blank">Binsearch</a>
+			–
+			<a href="https://nzbking.com/?q={{ header : link }}" target="_blank">NZBKing</a>
+		</p>
+		<p>
+			<strong>NZBLNK™ Link:</strong><br>
+			[nzblnk]nzblnk:?t={{ nzb-file : link }}&amp;h={{ header : link }}&amp;p={{ pass : link }}[/nzblnk]
+		</p>
+	</center>
+</sc-hide>
 {$ nzb}
