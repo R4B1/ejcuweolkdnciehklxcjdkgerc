@@ -1,1 +1,1 @@
-{@}<pre>{{ [] nfo }}</pre>{$}
+{@}<pre data-file="NFO" data-highlighter="plain">{{ [] nfo }}</pre>{$}
