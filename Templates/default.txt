@@ -6,7 +6,7 @@
 <center><b>Beschreibung</b></center>
 <br><br>
 <center>{{ [X] desc : linebreak }}</center>
-<br>
+<br><br>
 {$}
 [[ nfo ]]
 [[ nzb_hidden ]]
