@@ -1,7 +1,9 @@
 <center><b>{{ nzb-file : spacer }}</b></center>
-<br></p>
+<p><br></p>
+<br>
 <center><img src="{{ cover }}" width="220" height="330"></center>
-<br></p>
+<p><br></p>
+<br>
 {@}
 <center><b>Beschreibung</b></center>
 <br></p>
