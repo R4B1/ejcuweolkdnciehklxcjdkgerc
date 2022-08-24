@@ -8,7 +8,8 @@
 <center><b>Beschreibung</b></center>
 <br></p>
 <center>{{ [X] desc : linebreak }}</center>
-<br></p>
+<p><br></p>
+<br>
 {$}
 [[ nfo ]]
 [[ nzb_hidden ]]
