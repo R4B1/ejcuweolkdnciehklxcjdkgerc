@@ -7,5 +7,5 @@
 <br><center><em><span style="font-size: 10pt">{{ date }}  -   {{ genres }}   -  {{ runtime }}  -  {{vote}}</span></em></center
 <p><br></p><p><br></p>
 <p></p><center>{{ desc : linebreak }}</center>
-<br>‚
+<br>
 [[ nzb_hidden ]]
