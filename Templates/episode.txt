@@ -1,4 +1,4 @@
-<center><b>{{ nzb-file : spacer }}</b></center>
+<p class="text-center"><span style="color: rgb(64, 224, 208);"><br></span></p><center><span style="font-size: 12pt"><span style="color: #40E0D0">{{ nzb-file : spacer }}</span></span></center>
 <p><br></p>
 <br>
 <center><img src="{{ cover }}"></center>
