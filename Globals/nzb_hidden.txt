@@ -1,6 +1,6 @@
 {@ [] nzb}
+<center>
 <sc-hide>
-	<center>
 		<p>{{ nzb-file : spacer }}</p>
 		<p>[headertable='{{ header }}','{{ pass }}'][/headertable]</p>
 		<br>
@@ -16,6 +16,7 @@
 			<strong>NZBLNK™ Link:</strong><br>
 			[nzblnk]nzblnk:?t={{ nzb-file : link }}&amp;h={{ header : link }}&amp;p={{ pass : link }}[/nzblnk]
 		</p>
-	</center>
+
 </sc-hide>
+	</center>
 {$ nzb}
