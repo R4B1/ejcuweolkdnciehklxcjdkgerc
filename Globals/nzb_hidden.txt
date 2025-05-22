@@ -6,7 +6,7 @@
 		<br>
 		<p>
 			<strong>NZB-Datei beim Indexer:</strong><br>
-			<a href="https://nzbindex.nl/?q={{ header : link }}" target="_blank">NZBIndex</a>
+			<a href="https://nzbindex.nl/search?q={{ header : link }}" target="_blank">NZBIndex</a>
 			–
 			<a href="https://binsearch.info/?q={{ header : link }}" target="_blank">Binsearch</a>
 			–
