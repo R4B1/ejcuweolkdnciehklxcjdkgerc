@@ -14,7 +14,7 @@
 		</p>
 		<p>
 			<strong>NZBLNK™ Link:</strong><br>
-a
+
 			[nzblnk][[ nzblnk ]][/nzblnk]
 		</p>
 
