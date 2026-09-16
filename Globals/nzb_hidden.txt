@@ -11,6 +11,8 @@
 			<a href="https://binsearch.info/?q={{ header : link }}" target="_blank">Binsearch</a>
 			–
 			<a href="https://nzbking.com/?q={{ header : link }}" target="_blank">NZBKing</a>
+			–
+			<a href="https://newzbay.cc/search?q={{ nzb-file : spacer }}">NewzBay</a></p>
 		</p>
 		<p>
 			<strong>NZBLNK™ Link:</strong><br>
